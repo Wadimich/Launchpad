@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{676312FB-AF67-4340-B86F-9CCEB22D802F}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Launchpad.Launcher PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Launchpad.Launcher\Interface\MainWindow.UI.cs">
+    <Files>
+      <File FileName="Launchpad.Launcher\Interface\MainWindow.UI.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

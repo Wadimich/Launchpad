@@ -21,11 +21,14 @@
 //
 
 using System;
+using System.IO;
 using System.Reflection;
 using Gdk;
+using GLib;
 using Gtk;
 using Launchpad.Launcher.Utility;
 using Pango;
+using Application = Gtk.Application;
 using UIElement = Gtk.Builder.ObjectAttribute;
 
 // ReSharper disable UnassignedReadonlyField
@@ -60,6 +63,21 @@ namespace Launchpad.Launcher.Interface
 		/// <returns>An instance of the main window widget.</returns>
 		public static MainWindow Create()
 		{
+			var stylesProvider = new CssProvider();
+
+			using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Launchpad.Launcher.Interface.styles.css"))
+			{
+				if (stream != null)
+				{
+					using (var reader = new StreamReader(stream))
+					{
+						stylesProvider.LoadFromData(reader.ReadToEnd());
+					}
+				}
+			}
+
+			StyleContext.AddProviderForScreen(Screen.Default, stylesProvider, 800);
+
 			using (var builder = new Builder(Assembly.GetExecutingAssembly(), "Launchpad.Launcher.Interface.Launchpad.glade", null))
 			{
 				var window = new MainWindow(builder, builder.GetObject(nameof(MainWindow)).Handle)

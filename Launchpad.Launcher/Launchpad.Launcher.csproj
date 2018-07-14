@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Config.Net" Version="4.7.3" />
+    <PackageReference Include="GioSharp" Version="3.22.24.36" />
     <PackageReference Include="GtkSharp" Version="3.22.24.36" />
     <PackageReference Include="GtkSharp.Win32" Version="3.1.2" />
     <PackageReference Include="NLog" Version="4.5.2" />
@@ -43,6 +44,8 @@
     <EmbeddedResource Include="app.manifest" />
     <EmbeddedResource Include="Resources\**\*.*" />
     <EmbeddedResource Include="Interface\Launchpad.glade" />
+    <None Remove="Interface\styles.css" />
+    <EmbeddedResource Include="Interface\styles.css" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="*.config">
