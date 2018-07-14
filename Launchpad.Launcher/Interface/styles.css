@@ -15,7 +15,6 @@
   background-color: #bc86b2;
 }
 GtkProgressBar {
-  min-height: 37px;
   border: 2px solid #bd66a0;
   background: white;
 }
