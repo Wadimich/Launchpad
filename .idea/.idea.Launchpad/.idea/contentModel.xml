@@ -236,11 +236,16 @@
           </e>
         </e>
         <e p="Interface" t="Include">
-          <e p="#Launchpad.glade#" t="Include" />
+          <e p="functions.css" t="Include" />
+          <e p="functions.css.map" t="Include" />
+          <e p="functions.less" t="Include" />
           <e p="Launchpad.glade" t="Include" />
+          <e p="Launchpad.glade~" t="Include" />
           <e p="MainWindow.cs" t="Include" />
           <e p="MainWindow.UI.cs" t="Include" />
           <e p="styles.css" t="Include" />
+          <e p="styles.css.map" t="Include" />
+          <e p="styles.less" t="Include" />
         </e>
         <e p="launchpad-internal.log" t="Include" />
         <e p="Launchpad.Launcher.csproj" t="IncludeRecursive" />

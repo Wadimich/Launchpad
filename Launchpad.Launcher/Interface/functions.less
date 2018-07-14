@@ -1,0 +1,10 @@
+.stroke ( @border: 1px, @gauss: 1px, @color: #fff) {
+	text-shadow: 0 @border @gauss @color,
+		0 -@border @gauss @color,
+	-@border 0 @gauss @color,
+	@border 0 @gauss @color,
+	@border @border @gauss @color,
+		@border -@border @gauss @color,
+	-@border @border @gauss @color,
+		-@border -@border @gauss @color;
+}

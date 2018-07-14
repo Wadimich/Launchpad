@@ -23,6 +23,7 @@
 using System;
 using System.IO;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using Gdk;
 using GLib;
 using Gtk;
@@ -64,7 +65,7 @@ namespace Launchpad.Launcher.Interface
 		public static MainWindow Create()
 		{
 			var stylesProvider = new CssProvider();
-
+			Assembly.GetExecutingAssembly().GetManifestResourceStream("Launchpad.Launcher.Assets.img.bg.jpg");
 			using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Launchpad.Launcher.Interface.styles.css"))
 			{
 				if (stream != null)
