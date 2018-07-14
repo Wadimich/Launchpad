@@ -43,13 +43,13 @@ namespace Launchpad.Launcher.Configuration
 		/// <summary>
 		/// Gets or sets the system target of the launcher.
 		/// </summary>
-		[Option(Alias = "Launcher.SystemTarget", DefaultValue = "Linux")]
+		[Option(Alias = "Launcher.SystemTarget", DefaultValue = "Win64")]
 		ESystemTarget SystemTarget { get; set; }
 
 		/// <summary>
 		/// Gets or sets a value indicating whether or not to use the official update source.
 		/// </summary>
-		[Option(Alias = "Launcher.UseOfficialUpdates", DefaultValue = true)]
+		[Option(Alias = "Launcher.UseOfficialUpdates", DefaultValue = false)]
 		bool UseOfficialUpdates { get; set; }
 
 		// Game section
