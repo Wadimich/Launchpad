@@ -87,7 +87,7 @@ namespace Launchpad.Launcher.Interface
 		/// <summary>
 		/// The localization catalog.
 		/// </summary>
-		private static readonly ICatalog LocalizationCatalog = new Catalog("Launchpad", "./Content/locale");
+		private static readonly ICatalog LocalizationCatalog = new Catalog("messages", "./Content/locale");
 
 		/// <summary>
 		/// Whether or not the launcher UI has been initialized.
@@ -120,7 +120,7 @@ namespace Launchpad.Launcher.Interface
 			SetLauncherMode(ELauncherMode.Inactive, false);
 
 			// Set the window title
-			this.Title = LocalizationCatalog.GetString("Launchpad - {0}", this.Configuration.GameName);
+			this.Title = LocalizationCatalog.GetString("{0} Launcher", this.Configuration.GameName);
 			this.StatusLabel.Text = LocalizationCatalog.GetString("Idle");
 		}
 
