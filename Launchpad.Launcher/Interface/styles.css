@@ -30,7 +30,7 @@ Progress bar
  */
 progressbar {
   color: #fff;
-  font-size: 22px;
+  font-size: 16px;
   font-family: Tahoma, sans-serif;
   font-weight: bold;
   text-shadow: 0 1px 1px #cc0c73, 0 -1px 1px #cc0c73, -1px 0 1px #cc0c73, 1px 0 1px #cc0c73, 1px 1px 1px #cc0c73, 1px -1px 1px #cc0c73, -1px 1px 1px #cc0c73, -1px -1px 1px #cc0c73;
@@ -52,7 +52,7 @@ progressbar.horizontal progress {
   margin-right: 2px;
 }
 progressbar.horizontal text {
-  margin-top: 5.14285714px;
+  margin-top: 9px;
 }
 /**
 Button

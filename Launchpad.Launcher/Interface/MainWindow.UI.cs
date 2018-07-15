@@ -30,6 +30,7 @@ using Gtk;
 using Launchpad.Launcher.Utility;
 using Pango;
 using Application = Gtk.Application;
+using MenuItem = Gtk.MenuItem;
 using UIElement = Gtk.Builder.ObjectAttribute;
 
 // ReSharper disable UnassignedReadonlyField
@@ -49,6 +50,9 @@ namespace Launchpad.Launcher.Interface
 		[UIElement] private readonly ImageMenuItem MenuRepairItem;
 		[UIElement] private readonly ImageMenuItem MenuReinstallItem;
 		[UIElement] private readonly ImageMenuItem MenuAboutItem;
+
+		[UIElement] private readonly MenuItem MenuHelpItem;
+		[UIElement] private readonly MenuItem MenuToolsItem;
 
 		[UIElement] private readonly TextView ChangelogTextView;
 		[UIElement] private readonly Image BannerImage;

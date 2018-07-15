@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: launchpad\n"
-"POT-Creation-Date: 2018-07-16 00:25+0500\n"
-"PO-Revision-Date: 2018-07-16 00:33+0500\n"
+"POT-Creation-Date: 2018-07-16 00:41+0500\n"
+"PO-Revision-Date: 2018-07-16 00:45+0500\n"
 "Last-Translator: JarlGullberg <jarl.gullberg@gmail.com>\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -31,7 +31,7 @@ msgstr "Audition 2 Revival"
 msgid "_Tools"
 msgstr "_Настройки"
 
-#: Launchpad.glade:53 MainWindow.cs:372
+#: Launchpad.glade:53 MainWindow.cs:376
 msgid "Repair"
 msgstr "Восстановить"
 
@@ -164,20 +164,28 @@ msgstr ""
 msgid "{0} Launcher"
 msgstr "Программа запуска {0}"
 
-#: MainWindow.cs:124 MainWindow.cs:496 MainWindow.cs:597
+#: MainWindow.cs:124 MainWindow.cs:500 MainWindow.cs:601
 msgid "Idle"
 msgstr "Ожидание"
 
-#: MainWindow.cs:147
+#: MainWindow.cs:127
+msgid "Help"
+msgstr "Помощь"
+
+#: MainWindow.cs:128
+msgid "Tools"
+msgstr "Настройки"
+
+#: MainWindow.cs:151
 msgid "Failed to connect to the patch server. Please check your settings."
 msgstr ""
 "Не удается подключиться к серверу с патчем. Пожалуйста, проверьте настройки."
 
-#: MainWindow.cs:153
+#: MainWindow.cs:157
 msgid "Could not connect to server."
 msgstr "Не удалось подключиться к серверу."
 
-#: MainWindow.cs:248
+#: MainWindow.cs:252
 msgid ""
 "This appears to be the first time you're starting the launcher.\n"
 "Is this the location where you would like to install the game?"
@@ -185,61 +193,61 @@ msgstr ""
 "Это окно появляется в первый раз когда вы запускаете лаунчер.\n"
 "Хотите установить игру сюда?"
 
-#: MainWindow.cs:339
+#: MainWindow.cs:343
 msgid "Installing..."
 msgstr "Установка..."
 
-#: MainWindow.cs:344
+#: MainWindow.cs:348
 msgid "Install"
 msgstr "Установить"
 
-#: MainWindow.cs:353
+#: MainWindow.cs:357
 msgid "Updating..."
 msgstr "Обновление..."
 
-#: MainWindow.cs:358
+#: MainWindow.cs:362
 msgid "Update"
 msgstr "Обновить"
 
-#: MainWindow.cs:367
+#: MainWindow.cs:371
 msgid "Repairing..."
 msgstr "Восстановление…"
 
-#: MainWindow.cs:381
+#: MainWindow.cs:385
 msgid "Launching..."
 msgstr "Запуск..."
 
-#: MainWindow.cs:386
+#: MainWindow.cs:390
 msgid "Launch"
 msgstr "Запустить"
 
-#: MainWindow.cs:395
+#: MainWindow.cs:399
 msgid "Inactive"
 msgstr "Неактивно"
 
-#: MainWindow.cs:444
+#: MainWindow.cs:448
 msgid "The server does not provide the game for the selected platform."
 msgstr "Сервер не предоставляет игру для выбранной платформы."
 
-#: MainWindow.cs:535
+#: MainWindow.cs:539
 msgid "The game failed to launch. Try repairing the installation."
 msgstr ""
 "Не удалось запустить игру. Проверьте целостность файлов или переустановите "
 "игру."
 
-#: MainWindow.cs:603
+#: MainWindow.cs:607
 msgid "Installation finished"
 msgstr "Установка завершена"
 
-#: MainWindow.cs:608
+#: MainWindow.cs:612
 msgid "Update finished"
 msgstr "Обновление завершено"
 
-#: MainWindow.cs:613
+#: MainWindow.cs:617
 msgid "Repair finished"
 msgstr "Восстановление завершено"
 
-#: MainWindow.cs:645
+#: MainWindow.cs:649
 msgid ""
 "Whoops! The game appears to have crashed.\n"
 "Would you like the launcher to verify the installation?"
@@ -247,7 +255,7 @@ msgstr ""
 "Уууупс! Игра сломалась.\n"
 "Хотите запустить процесс проверки целостности установки?"
 
-#: MainWindow.cs:681
+#: MainWindow.cs:685
 msgid ""
 "Reinstalling the game will delete all local files and download the entire "
 "game again.\n"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: launchpad\n"
-"POT-Creation-Date: 2018-07-16 00:25+0500\n"
-"PO-Revision-Date: 2018-07-16 00:25+0500\n"
+"POT-Creation-Date: 2018-07-16 00:41+0500\n"
+"PO-Revision-Date: 2018-07-16 00:41+0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "_Tools"
 msgstr ""
 
-#: Launchpad.glade:53 MainWindow.cs:372
+#: Launchpad.glade:53 MainWindow.cs:376
 msgid "Repair"
 msgstr ""
 
@@ -107,83 +107,91 @@ msgstr ""
 msgid "{0} Launcher"
 msgstr ""
 
-#: MainWindow.cs:124 MainWindow.cs:496 MainWindow.cs:597
+#: MainWindow.cs:124 MainWindow.cs:500 MainWindow.cs:601
 msgid "Idle"
 msgstr ""
 
-#: MainWindow.cs:147
+#: MainWindow.cs:127
+msgid "Help"
+msgstr ""
+
+#: MainWindow.cs:128
+msgid "Tools"
+msgstr ""
+
+#: MainWindow.cs:151
 msgid "Failed to connect to the patch server. Please check your settings."
 msgstr ""
 
-#: MainWindow.cs:153
+#: MainWindow.cs:157
 msgid "Could not connect to server."
 msgstr ""
 
-#: MainWindow.cs:248
+#: MainWindow.cs:252
 msgid ""
 "This appears to be the first time you're starting the launcher.\n"
 "Is this the location where you would like to install the game?"
 msgstr ""
 
-#: MainWindow.cs:339
+#: MainWindow.cs:343
 msgid "Installing..."
 msgstr ""
 
-#: MainWindow.cs:344
+#: MainWindow.cs:348
 msgid "Install"
 msgstr ""
 
-#: MainWindow.cs:353
+#: MainWindow.cs:357
 msgid "Updating..."
 msgstr ""
 
-#: MainWindow.cs:358
+#: MainWindow.cs:362
 msgid "Update"
 msgstr ""
 
-#: MainWindow.cs:367
+#: MainWindow.cs:371
 msgid "Repairing..."
 msgstr ""
 
-#: MainWindow.cs:381
+#: MainWindow.cs:385
 msgid "Launching..."
 msgstr ""
 
-#: MainWindow.cs:386
+#: MainWindow.cs:390
 msgid "Launch"
 msgstr ""
 
-#: MainWindow.cs:395
+#: MainWindow.cs:399
 msgid "Inactive"
 msgstr ""
 
-#: MainWindow.cs:444
+#: MainWindow.cs:448
 msgid "The server does not provide the game for the selected platform."
 msgstr ""
 
-#: MainWindow.cs:535
+#: MainWindow.cs:539
 msgid "The game failed to launch. Try repairing the installation."
 msgstr ""
 
-#: MainWindow.cs:603
+#: MainWindow.cs:607
 msgid "Installation finished"
 msgstr ""
 
-#: MainWindow.cs:608
+#: MainWindow.cs:612
 msgid "Update finished"
 msgstr ""
 
-#: MainWindow.cs:613
+#: MainWindow.cs:617
 msgid "Repair finished"
 msgstr ""
 
-#: MainWindow.cs:645
+#: MainWindow.cs:649
 msgid ""
 "Whoops! The game appears to have crashed.\n"
 "Would you like the launcher to verify the installation?"
 msgstr ""
 
-#: MainWindow.cs:681
+#: MainWindow.cs:685
 msgid ""
 "Reinstalling the game will delete all local files and download the entire "
 "game again.\n"
