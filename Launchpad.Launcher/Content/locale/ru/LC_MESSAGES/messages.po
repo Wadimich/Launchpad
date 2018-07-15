@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: launchpad\n"
-"POT-Creation-Date: 2016-07-28 21:06+0200\n"
-"PO-Revision-Date: 2018-07-15 23:40+0500\n"
+"POT-Creation-Date: 2018-07-16 00:25+0500\n"
+"PO-Revision-Date: 2018-07-16 00:33+0500\n"
 "Last-Translator: JarlGullberg <jarl.gullberg@gmail.com>\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -10,7 +10,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.8\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: GetString\n"
 "X-Poedit-Basepath: ..\n"
@@ -19,51 +20,164 @@ msgstr ""
 "X-Crowdin-File: messages.po\n"
 "X-Poedit-SearchPath-0: Launchpad.Launcher\n"
 "X-Poedit-SearchPath-1: Launchpad.Utilities\n"
-"X-Poedit-SearchPathExcluded-0: Launchpad.Launcher/Interface/gtk3/Launchpad.glade\n"
+"X-Poedit-SearchPathExcluded-0: Launchpad.Launcher/Interface/gtk3/Launchpad."
+"glade\n"
 
-#: Launchpad.Launcher/Handlers/Protocols/ManifestBasedProtocolHandler.cs:625
-#, csharp-format
-msgid "Verifying file {0} ({1} of {2})"
-msgstr "Проверка файла {0} ({1} из {2})"
+#: Launchpad.glade:19
+msgid "Launchpad"
+msgstr "Audition 2 Revival"
 
-#: Launchpad.Launcher/Handlers/Protocols/ManifestBasedProtocolHandler.cs:637
-#, csharp-format
-msgid "Updating file {0} ({1} of {2})"
-msgstr "Обновление файла {0} ({1} из {2})"
+#: Launchpad.glade:45
+msgid "_Tools"
+msgstr "_Настройки"
 
-#: Launchpad.Launcher/Handlers/Protocols/ManifestBasedProtocolHandler.cs:649
-#, csharp-format
-msgid "Downloading file {0} ({1} of {2})"
-msgstr "Загрузка файла {0} ({1} из {2})"
+#: Launchpad.glade:53 MainWindow.cs:372
+msgid "Repair"
+msgstr "Восстановить"
 
-#: Launchpad.Launcher/Handlers/Protocols/ManifestBasedProtocolHandler.cs:661
-#, csharp-format
-msgid "Downloading {0}: {1} out of {2}"
-msgstr "Загрузка {0}: {1} из {2}"
+#: Launchpad.glade:62
+msgid "Reinstall"
+msgstr "Переустановить"
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:108
-#: Launchpad.Launcher/gtk-gui/Launchpad.Launcher.Interface.MainWindow.cs:90
-#, csharp-format
-msgid "Launchpad - {0}"
+#: Launchpad.glade:82
+msgid "_Help"
+msgstr "_Помощь"
+
+#: Launchpad.glade:222
+msgid "button"
+msgstr "кнопка"
+
+#: Launchpad.glade:258
+msgid "label"
+msgstr "метка"
+
+#: Launchpad.glade:284
+msgid "Jarl Gullberg 2018"
+msgstr "Jarl Gullberg 2018, Wadimich"
+
+#: Launchpad.glade:286
+msgid "Launchpad on Github"
+msgstr "Audition 2 Revival на Github"
+
+#: Launchpad.glade:288
+msgid ""
+"aaronnsbe\n"
+"Alyona Druzhinina\n"
+"Andra\n"
+"ArthurR\n"
+"Austin McGowan\n"
+"bluewinter\n"
+"Bruno Briante\n"
+"Clash Royal\n"
+"Deventico\n"
+"Dremski\n"
+"Henrique Cezar (drakkoslayer)\n"
+"Henrique Cezar (killchainer)\n"
+"Isaideureka\n"
+"Josef Vyhnánek\n"
+"jznsamuel\n"
+"Krystian Pozaroszczyk\n"
+"LavransB\n"
+"LEE Matthew\n"
+"lennert vanriel\n"
+"LesserCure\n"
+"Marcelo Coutinho\n"
+"Md Rokonuazzaman Rifat\n"
+"melonmanchan\n"
+"Merry Grim\n"
+"montlikadani\n"
+"NeHoMaR\n"
+"Nick Jordan\n"
+"Onur Besli\n"
+"Project Pairidaeza\n"
+"Radosłav Waśko\n"
+"Ramon Marrero\n"
+"rayts5\n"
+"rosatravels\n"
+"Ryal\n"
+"SteONeill\n"
+"Sturalke\n"
+"Team TriFormine\n"
+"Timberwolf581\n"
+"Viktor Zoutman\n"
+"vlf\n"
+"xtapolapaketl\n"
+"Yuri Belleri\n"
+"zaher99\n"
+"Zectric F.\n"
+"Александр Минкин\n"
+"Калоян Георгиев\n"
+"مجد حبيب أسعد \n"
+"\n"
 msgstr ""
+"aaronnsbe\n"
+"Alyona Druzhinina\n"
+"Andra\n"
+"ArthurR\n"
+"Austin McGowan\n"
+"bluewinter\n"
+"Bruno Briante\n"
+"Clash Royal\n"
+"Deventico\n"
+"Dremski\n"
+"Henrique Cezar (drakkoslayer)\n"
+"Henrique Cezar (killchainer)\n"
+"Isaideureka\n"
+"Josef Vyhnánek\n"
+"jznsamuel\n"
+"Krystian Pozaroszczyk\n"
+"LavransB\n"
+"LEE Matthew\n"
+"lennert vanriel\n"
+"LesserCure\n"
+"Marcelo Coutinho\n"
+"Md Rokonuazzaman Rifat\n"
+"melonmanchan\n"
+"Merry Grim\n"
+"montlikadani\n"
+"NeHoMaR\n"
+"Nick Jordan\n"
+"Onur Besli\n"
+"Project Pairidaeza\n"
+"Radosłav Waśko\n"
+"Ramon Marrero\n"
+"rayts5\n"
+"rosatravels\n"
+"Ryal\n"
+"SteONeill\n"
+"Sturalke\n"
+"Team TriFormine\n"
+"Timberwolf581\n"
+"Viktor Zoutman\n"
+"vlf\n"
+"xtapolapaketl\n"
+"Yuri Belleri\n"
+"zaher99\n"
+"Zectric F.\n"
+"Александр Минкин\n"
+"Калоян Георгиев\n"
+"مجد حبيب أسعد \n"
+"\n"
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:114
-#: Launchpad.Launcher/Interface/MainWindow.cs:435
-#: Launchpad.Launcher/Interface/MainWindow.cs:551
-#: Launchpad.Launcher/gtk-gui/Launchpad.Launcher.Interface.MainWindow.cs:215
-#: Launchpad.Utilities/Interface/MainWindow.cs:57
+#: MainWindow.cs:123
+#, csharp-format
+msgid "{0} Launcher"
+msgstr "Программа запуска {0}"
+
+#: MainWindow.cs:124 MainWindow.cs:496 MainWindow.cs:597
 msgid "Idle"
 msgstr "Ожидание"
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:124
+#: MainWindow.cs:147
 msgid "Failed to connect to the patch server. Please check your settings."
-msgstr "Не удается подключиться к серверу с патчем. Пожалуйста, проверьте настройки."
+msgstr ""
+"Не удается подключиться к серверу с патчем. Пожалуйста, проверьте настройки."
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:129
+#: MainWindow.cs:153
 msgid "Could not connect to server."
 msgstr "Не удалось подключиться к серверу."
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:160
+#: MainWindow.cs:248
 msgid ""
 "This appears to be the first time you're starting the launcher.\n"
 "Is this the location where you would like to install the game?"
@@ -71,135 +185,119 @@ msgstr ""
 "Это окно появляется в первый раз когда вы запускаете лаунчер.\n"
 "Хотите установить игру сюда?"
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:269
+#: MainWindow.cs:339
 msgid "Installing..."
 msgstr "Установка..."
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:274
+#: MainWindow.cs:344
 msgid "Install"
 msgstr "Установить"
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:283
+#: MainWindow.cs:353
 msgid "Updating..."
 msgstr "Обновление..."
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:288
+#: MainWindow.cs:358
 msgid "Update"
 msgstr "Обновить"
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:297
+#: MainWindow.cs:367
 msgid "Repairing..."
-msgstr "Востановление..."
+msgstr "Восстановление…"
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:302
-msgid "Repair"
-msgstr "Востановить"
-
-#: Launchpad.Launcher/Interface/MainWindow.cs:311
+#: MainWindow.cs:381
 msgid "Launching..."
 msgstr "Запуск..."
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:316
+#: MainWindow.cs:386
 msgid "Launch"
 msgstr "Запустить"
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:325
-#: Launchpad.Launcher/gtk-gui/Launchpad.Launcher.Interface.MainWindow.cs:272
+#: MainWindow.cs:395
 msgid "Inactive"
 msgstr "Неактивно"
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:386
+#: MainWindow.cs:444
 msgid "The server does not provide the game for the selected platform."
-msgstr "Сервер не предоставляет игры для выбранной платформы."
+msgstr "Сервер не предоставляет игру для выбранной платформы."
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:489
+#: MainWindow.cs:535
 msgid "The game failed to launch. Try repairing the installation."
-msgstr "Не удалось запустить игру. Проверьте целостность файлов или переустановите игру."
+msgstr ""
+"Не удалось запустить игру. Проверьте целостность файлов или переустановите "
+"игру."
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:557
+#: MainWindow.cs:603
 msgid "Installation finished"
 msgstr "Установка завершена"
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:562
+#: MainWindow.cs:608
 msgid "Update finished"
 msgstr "Обновление завершено"
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:567
+#: MainWindow.cs:613
 msgid "Repair finished"
 msgstr "Восстановление завершено"
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:595
+#: MainWindow.cs:645
 msgid ""
 "Whoops! The game appears to have crashed.\n"
 "Would you like the launcher to verify the installation?"
 msgstr ""
 "Уууупс! Игра сломалась.\n"
-"Хотите запустить процесс восстановления?"
+"Хотите запустить процесс проверки целостности установки?"
 
-#: Launchpad.Launcher/Interface/MainWindow.cs:627
+#: MainWindow.cs:681
 msgid ""
-"Reinstalling the game will delete all local files and download the entire game again.\n"
+"Reinstalling the game will delete all local files and download the entire "
+"game again.\n"
 "Are you sure you want to reinstall the game?"
 msgstr ""
-"Переустановка игры запустит процесс удаления всех локальных файлов, после чего скачает игру заново.\n"
+"Переустановка игры запустит процесс удаления всех локальных файлов, после "
+"чего скачает игру заново.\n"
 "Вы уверены, что вы хотите переустановить игру?"
 
-#: Launchpad.Launcher/gtk-gui/Launchpad.Launcher.Interface.MainWindow.cs:61
-#: Launchpad.Launcher/gtk-gui/Launchpad.Launcher.Interface.MainWindow.cs:63
-msgid "Menu"
-msgstr "Меню"
+#~ msgid "Verifying file {0} ({1} of {2})"
+#~ msgstr "Проверка файла {0} ({1} из {2})"
 
-#: Launchpad.Launcher/gtk-gui/Launchpad.Launcher.Interface.MainWindow.cs:69
-#: Launchpad.Launcher/gtk-gui/Launchpad.Launcher.Interface.MainWindow.cs:73
-msgid "Repair Game"
-msgstr "Восстановить игру"
+#~ msgid "Updating file {0} ({1} of {2})"
+#~ msgstr "Обновление файла {0} ({1} из {2})"
 
-#: Launchpad.Launcher/gtk-gui/Launchpad.Launcher.Interface.MainWindow.cs:70
-msgid "Starts a repair process for the installed game."
-msgstr "Начать процесс восстановления установленной игры."
+#~ msgid "Downloading file {0} ({1} of {2})"
+#~ msgstr "Загрузка файла {0} ({1} из {2})"
 
-#: Launchpad.Launcher/gtk-gui/Launchpad.Launcher.Interface.MainWindow.cs:79
-#: Launchpad.Launcher/gtk-gui/Launchpad.Launcher.Interface.MainWindow.cs:83
-msgid "Reinstall Game"
-msgstr "Переустановить игру"
+#~ msgid "Downloading {0}: {1} out of {2}"
+#~ msgstr "Загрузка {0}: {1} из {2}"
 
-#: Launchpad.Launcher/gtk-gui/Launchpad.Launcher.Interface.MainWindow.cs:80
-msgid "Reinstalls the installed game."
-msgstr "Переустановка игры."
+#~ msgid "Menu"
+#~ msgstr "Меню"
 
-#: Launchpad.Utilities/Interface/MainWindow.cs:84
-msgid ""
-"No GameVersion.txt file could be found in the target directory. This file is required.\n"
-"Would you like to add one? The version will be \"1.0.0\"."
-msgstr ""
-"Невозможно найти GameVersion.txt в конечной директории. Этот файл необходим.\n"
-"Хотите добавить? Версия по-умолчанию будет установлена на \"1.0.0\"."
+#~ msgid "Repair Game"
+#~ msgstr "Восстановить игру"
 
-#: Launchpad.Utilities/Interface/MainWindow.cs:124
-#, csharp-format
-msgid "{0} : {1} out of {2}"
-msgstr "{0}: {1} из {2}"
+#~ msgid "Starts a repair process for the installed game."
+#~ msgstr "Начать процесс восстановления установленной игры."
 
-#: Launchpad.Utilities/Interface/MainWindow.cs:140
-msgid "Finished"
-msgstr "Завершено"
+#~ msgid "Reinstalls the installed game."
+#~ msgstr "Переустановка игры."
 
-#: Launchpad.Utilities/gtk-gui/Launchpad.Utilities.Interface.MainWindow.cs:61
-msgid "Launchpad Utilities - Manifest"
-msgstr ""
+#~ msgid ""
+#~ "No GameVersion.txt file could be found in the target directory. This file "
+#~ "is required.\n"
+#~ "Would you like to add one? The version will be \"1.0.0\"."
+#~ msgstr ""
+#~ "Невозможно найти GameVersion.txt в конечной директории. Этот файл "
+#~ "необходим.\n"
+#~ "Хотите добавить? Версия по-умолчанию будет установлена на \"1.0.0\"."
 
-#: Launchpad.Utilities/gtk-gui/Launchpad.Utilities.Interface.MainWindow.cs:128
-msgid "Progress: "
-msgstr "Прогресс: "
+#~ msgid "{0} : {1} out of {2}"
+#~ msgstr "{0}: {1} из {2}"
 
-#: Launchpad.Utilities/gtk-gui/Launchpad.Utilities.Interface.MainWindow.cs:146
-msgid "/some/file/path : 1 out of 100"
-msgstr "/some/file/path: 1 из 100"
+#~ msgid "Finished"
+#~ msgstr "Завершено"
 
-#: Launchpad.Utilities/gtk-gui/Launchpad.Utilities.Interface.MainWindow.cs:196
-msgid "Generate Game Manifest"
-msgstr ""
+#~ msgid "Progress: "
+#~ msgstr "Прогресс: "
 
-#: Launchpad.Utilities/gtk-gui/Launchpad.Utilities.Interface.MainWindow.cs:218
-msgid "Generate Launchpad Manifest"
-msgstr ""
+#~ msgid "/some/file/path : 1 out of 100"
+#~ msgstr "/some/file/path: 1 из 100"

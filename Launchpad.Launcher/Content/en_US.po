@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: launchpad\n"
+"POT-Creation-Date: 2018-07-16 00:25+0500\n"
+"PO-Revision-Date: 2018-07-16 00:25+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ../Interface\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Launchpad.glade:19
+msgid "Launchpad"
+msgstr ""
+
+#: Launchpad.glade:45
+msgid "_Tools"
+msgstr ""
+
+#: Launchpad.glade:53 MainWindow.cs:372
+msgid "Repair"
+msgstr ""
+
+#: Launchpad.glade:62
+msgid "Reinstall"
+msgstr ""
+
+#: Launchpad.glade:82
+msgid "_Help"
+msgstr ""
+
+#: Launchpad.glade:222
+msgid "button"
+msgstr ""
+
+#: Launchpad.glade:258
+msgid "label"
+msgstr ""
+
+#: Launchpad.glade:284
+msgid "Jarl Gullberg 2018"
+msgstr ""
+
+#: Launchpad.glade:286
+msgid "Launchpad on Github"
+msgstr ""
+
+#: Launchpad.glade:288
+msgid ""
+"aaronnsbe\n"
+"Alyona Druzhinina\n"
+"Andra\n"
+"ArthurR\n"
+"Austin McGowan\n"
+"bluewinter\n"
+"Bruno Briante\n"
+"Clash Royal\n"
+"Deventico\n"
+"Dremski\n"
+"Henrique Cezar (drakkoslayer)\n"
+"Henrique Cezar (killchainer)\n"
+"Isaideureka\n"
+"Josef Vyhnánek\n"
+"jznsamuel\n"
+"Krystian Pozaroszczyk\n"
+"LavransB\n"
+"LEE Matthew\n"
+"lennert vanriel\n"
+"LesserCure\n"
+"Marcelo Coutinho\n"
+"Md Rokonuazzaman Rifat\n"
+"melonmanchan\n"
+"Merry Grim\n"
+"montlikadani\n"
+"NeHoMaR\n"
+"Nick Jordan\n"
+"Onur Besli\n"
+"Project Pairidaeza\n"
+"Radosłav Waśko\n"
+"Ramon Marrero\n"
+"rayts5\n"
+"rosatravels\n"
+"Ryal\n"
+"SteONeill\n"
+"Sturalke\n"
+"Team TriFormine\n"
+"Timberwolf581\n"
+"Viktor Zoutman\n"
+"vlf\n"
+"xtapolapaketl\n"
+"Yuri Belleri\n"
+"zaher99\n"
+"Zectric F.\n"
+"Александр Минкин\n"
+"Калоян Георгиев\n"
+"مجد حبيب أسعد \n"
+"\n"
+msgstr ""
+
+#: MainWindow.cs:123
+#, csharp-format
+msgid "{0} Launcher"
+msgstr ""
+
+#: MainWindow.cs:124 MainWindow.cs:496 MainWindow.cs:597
+msgid "Idle"
+msgstr ""
+
+#: MainWindow.cs:147
+msgid "Failed to connect to the patch server. Please check your settings."
+msgstr ""
+
+#: MainWindow.cs:153
+msgid "Could not connect to server."
+msgstr ""
+
+#: MainWindow.cs:248
+msgid ""
+"This appears to be the first time you're starting the launcher.\n"
+"Is this the location where you would like to install the game?"
+msgstr ""
+
+#: MainWindow.cs:339
+msgid "Installing..."
+msgstr ""
+
+#: MainWindow.cs:344
+msgid "Install"
+msgstr ""
+
+#: MainWindow.cs:353
+msgid "Updating..."
+msgstr ""
+
+#: MainWindow.cs:358
+msgid "Update"
+msgstr ""
+
+#: MainWindow.cs:367
+msgid "Repairing..."
+msgstr ""
+
+#: MainWindow.cs:381
+msgid "Launching..."
+msgstr ""
+
+#: MainWindow.cs:386
+msgid "Launch"
+msgstr ""
+
+#: MainWindow.cs:395
+msgid "Inactive"
+msgstr ""
+
+#: MainWindow.cs:444
+msgid "The server does not provide the game for the selected platform."
+msgstr ""
+
+#: MainWindow.cs:535
+msgid "The game failed to launch. Try repairing the installation."
+msgstr ""
+
+#: MainWindow.cs:603
+msgid "Installation finished"
+msgstr ""
+
+#: MainWindow.cs:608
+msgid "Update finished"
+msgstr ""
+
+#: MainWindow.cs:613
+msgid "Repair finished"
+msgstr ""
+
+#: MainWindow.cs:645
+msgid ""
+"Whoops! The game appears to have crashed.\n"
+"Would you like the launcher to verify the installation?"
+msgstr ""
+
+#: MainWindow.cs:681
+msgid ""
+"Reinstalling the game will delete all local files and download the entire "
+"game again.\n"
+"Are you sure you want to reinstall the game?"
+msgstr ""

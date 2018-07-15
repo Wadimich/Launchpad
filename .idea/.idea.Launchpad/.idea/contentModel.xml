@@ -41,6 +41,8 @@
           <e p="ILaunchpadConfiguration.cs" t="Include" />
         </e>
         <e p="Content" t="Include">
+          <e p="en_US.mo" t="Include" />
+          <e p="en_US.po" t="Include" />
           <e p="locale" t="Include">
             <e p="af" t="Include">
               <e p="LC_MESSAGES" t="Include">
@@ -206,6 +208,7 @@
             </e>
             <e p="zh_CN" t="Include">
               <e p="LC_MESSAGES" t="Include">
+                <e p="messages.mo" t="Include" />
                 <e p="messages.po" t="Include" />
               </e>
             </e>

@@ -56,6 +56,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <InProject>false</InProject>
     </Content>
+    <Content Include="Content\locale\**\*.mo">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <InProject>false</InProject>
+    </Content>
     <Content Include="../LICENSE">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <InProject>false</InProject>
