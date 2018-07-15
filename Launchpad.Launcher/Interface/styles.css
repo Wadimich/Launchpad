@@ -1,6 +1,15 @@
+/**
+Base button colors
+ */
+/**
+Main Window background
+ */
 .bg {
   background: url("http://fast.wadimich.ru/custom/bg.jpg") no-repeat 0 100% transparent;
 }
+/**
+Menu buttons
+ */
 .menu-item {
   background: none;
   border: 1px solid #bc86b2;
@@ -16,14 +25,9 @@
   background-color: #bc86b2;
   box-shadow: none;
 }
-/*.progress-bar {
-	border: 2px solid #bd66a0;
-	
-	progress {
-		min-height: 37px;
-		margin-top: -37px;
-	}
-}*/
+/**
+Progress bar
+ */
 progressbar {
   color: #fff;
   font-size: 22px;
@@ -43,7 +47,6 @@ progressbar.horizontal progress {
   min-height: 32px;
   background: linear-gradient(to top, #db128e, #db128e 49%, #f536ac 52%, #f536ac);
   box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.5);
-  border: 1px solid #cc0c73;
   border-radius: 10px;
   margin-left: 2px;
   margin-right: 2px;
@@ -51,6 +54,9 @@ progressbar.horizontal progress {
 progressbar.horizontal text {
   margin-top: 5.14285714px;
 }
+/**
+Button
+ */
 button {
   min-height: 28px;
   background: linear-gradient(to top, #db128e, #db128e 49%, #f536ac 52%, #f536ac);
