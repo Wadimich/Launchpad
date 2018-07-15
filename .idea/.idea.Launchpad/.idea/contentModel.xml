@@ -26,11 +26,9 @@
         </e>
         <e p="Launchpad.Common.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="x86" t="Include">
-            <e p="Release" t="Include">
-              <e p="netstandard2.0" t="Include">
-                <e p="Launchpad.Common.AssemblyInfo.cs" t="Include" />
-              </e>
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Launchpad.Common.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -176,8 +174,10 @@
             </e>
             <e p="ru" t="Include">
               <e p="LC_MESSAGES" t="Include">
+                <e p="messages.mo" t="Include" />
                 <e p="messages.po" t="Include" />
               </e>
+              <e p="messages.mo" t="Include" />
             </e>
             <e p="sr" t="Include">
               <e p="LC_MESSAGES" t="Include">
@@ -215,6 +215,7 @@
               </e>
             </e>
           </e>
+          <e p="messages.mo" t="Include" />
         </e>
         <e p="Extensions" t="Include">
           <e p="ManifestEntryExtensions.cs" t="Include" />
@@ -251,11 +252,9 @@
         <e p="Launchpad.Launcher.csproj.DotSettings" t="Include" />
         <e p="NLog.config" t="Include" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="x86" t="Include">
-            <e p="Release" t="Include">
-              <e p="net462" t="Include">
-                <e p="Launchpad.Launcher.AssemblyInfo.cs" t="Include" />
-              </e>
+          <e p="Debug" t="Include">
+            <e p="net461" t="Include">
+              <e p="Launchpad.Launcher.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -289,11 +288,9 @@
         </e>
         <e p="Launchpad.Tests.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="x86" t="Include">
-            <e p="Release" t="Include">
-              <e p="net462" t="Include">
-                <e p="Launchpad.Tests.AssemblyInfo.cs" t="Include" />
-              </e>
+          <e p="Debug" t="Include">
+            <e p="net461" t="Include">
+              <e p="Launchpad.Tests.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -312,11 +309,9 @@
         <e p="Launchpad.Utilities.csproj" t="IncludeRecursive" />
         <e p="NLog.config" t="Include" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="x86" t="Include">
-            <e p="Release" t="Include">
-              <e p="net462" t="Include">
-                <e p="Launchpad.Utilities.AssemblyInfo.cs" t="Include" />
-              </e>
+          <e p="Debug" t="Include">
+            <e p="net461" t="Include">
+              <e p="Launchpad.Utilities.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -335,14 +330,10 @@
         </e>
       </e>
       <e p="LICENSE" t="Include" />
+      <e p="metadata" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="README.md" t="Include" />
-      <e p="Scripts" t="Include">
-        <e p="launchpad-dependencies.sh" t="Include" />
-        <e p="launchpad-publish.sh" t="Include" />
-        <e p="launchpad-server-setup.sh" t="Include" />
-        <e p="update-translations.sh" t="Include" />
-      </e>
+      <e p="Scripts" t="Include" />
       <e p="stylecop.json" t="Include" />
       <e p="stylecop.ruleset" t="Include" />
     </e>

@@ -29,13 +29,13 @@
 	}
 }
 
-GtkProgressBar {
-	//min-height: 37px;
+.progress-bar {
+	min-height: 37px;
 	border: 2px solid #bd66a0;
 	background: white;
 }
 
-GtkButton {
+button {
 	background: linear-gradient(
 		to top, 
 		hsv(@pinkH, @dS, @dB),
@@ -74,7 +74,7 @@ GtkButton {
 		);
 	}
 	
-	&:insensitive {
+	&:disabled {
 		border-color: desaturate(@bd-color, 100%);
 		.stroke(1px, 1px, desaturate(@bd-color, 100%));
 		background: linear-gradient(
