@@ -174,10 +174,8 @@
             </e>
             <e p="ru" t="Include">
               <e p="LC_MESSAGES" t="Include">
-                <e p="messages.mo" t="Include" />
                 <e p="messages.po" t="Include" />
               </e>
-              <e p="messages.mo" t="Include" />
             </e>
             <e p="sr" t="Include">
               <e p="LC_MESSAGES" t="Include">
@@ -215,7 +213,6 @@
               </e>
             </e>
           </e>
-          <e p="messages.mo" t="Include" />
         </e>
         <e p="Extensions" t="Include">
           <e p="ManifestEntryExtensions.cs" t="Include" />
@@ -241,6 +238,7 @@
           <e p="functions.css.map" t="Include" />
           <e p="functions.less" t="Include" />
           <e p="Launchpad.glade" t="Include" />
+          <e p="Launchpad.glade~" t="Include" />
           <e p="MainWindow.cs" t="Include" />
           <e p="MainWindow.UI.cs" t="Include" />
           <e p="styles.css" t="Include" />

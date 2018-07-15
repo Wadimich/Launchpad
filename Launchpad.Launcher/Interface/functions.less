@@ -8,3 +8,11 @@
 	-@border @border @gauss @color,
 		-@border -@border @gauss @color;
 }
+
+.baseFont(@fontSize: 22px, @strokeColor: @bd-color) {
+	color: #fff;
+	font-size: @fontSize;
+	font-family: Tahoma, sans-serif;
+	font-weight: bold;
+	.stroke(1px, 1px, @strokeColor);
+}
