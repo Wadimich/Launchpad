@@ -58,13 +58,13 @@ namespace Launchpad.Launcher.Configuration
 		/// <summary>
 		/// Gets or sets the name of the game.
 		/// </summary>
-		[Option(Alias = "Game.Name", DefaultValue = "LaunchpadExample")]
+		[Option(Alias = "Game.Name", DefaultValue = "Audition 2 Revival")]
 		string GameName { get; set; }
 
 		/// <summary>
 		/// Gets or sets the path to the game's executable, relative to the launcher.
 		/// </summary>
-		[Option(Alias = "Game.ExecutablePath", DefaultValue = "LaunchpadExample/Binaries/Linux/LaunchpadExample")]
+		[Option(Alias = "Game.ExecutablePath", DefaultValue = "Dancegame/Binaries/Win64/Dancegame")]
 		string ExecutablePath { get; set; }
 
 		// Remote section
