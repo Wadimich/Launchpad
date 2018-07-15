@@ -89,6 +89,7 @@
             </e>
             <e p="en" t="Include">
               <e p="LC_MESSAGES" t="Include">
+                <e p="messages.mo" t="Include" />
                 <e p="messages.po" t="Include" />
               </e>
             </e>
@@ -210,6 +211,7 @@
             </e>
             <e p="zh_TW" t="Include">
               <e p="LC_MESSAGES" t="Include">
+                <e p="messages.mo" t="Include" />
                 <e p="messages.po" t="Include" />
               </e>
             </e>
