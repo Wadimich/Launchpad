@@ -6,6 +6,7 @@ Main Window background
  */
 .bg {
   background: url("http://fast.wadimich.ru/custom/bg.jpg") no-repeat 0 100% transparent;
+  background-size: cover;
 }
 /**
 Menu buttons
@@ -16,7 +17,6 @@ Menu buttons
   border-radius: 10px;
   color: #fff;
   font-size: 18px;
-  font-family: Tahoma, sans-serif;
   font-weight: bold;
   text-shadow: 0 1px 1px #4a0e66, 0 -1px 1px #4a0e66, -1px 0 1px #4a0e66, 1px 0 1px #4a0e66, 1px 1px 1px #4a0e66, 1px -1px 1px #4a0e66, -1px 1px 1px #4a0e66, -1px -1px 1px #4a0e66;
   transition: all 0.1s linear;
@@ -25,13 +25,15 @@ Menu buttons
   background-color: #bc86b2;
   box-shadow: none;
 }
+.status-label {
+  color: #fff;
+}
 /**
 Progress bar
  */
 progressbar {
   color: #fff;
   font-size: 16px;
-  font-family: Tahoma, sans-serif;
   font-weight: bold;
   text-shadow: 0 1px 1px #cc0c73, 0 -1px 1px #cc0c73, -1px 0 1px #cc0c73, 1px 0 1px #cc0c73, 1px 1px 1px #cc0c73, 1px -1px 1px #cc0c73, -1px 1px 1px #cc0c73, -1px -1px 1px #cc0c73;
 }
@@ -66,7 +68,6 @@ button {
   transition: all 0.1s linear;
   color: #fff;
   font-size: 22px;
-  font-family: Tahoma, sans-serif;
   font-weight: bold;
   text-shadow: 0 1px 1px #cc0c73, 0 -1px 1px #cc0c73, -1px 0 1px #cc0c73, 1px 0 1px #cc0c73, 1px 1px 1px #cc0c73, 1px -1px 1px #cc0c73, -1px 1px 1px #cc0c73, -1px -1px 1px #cc0c73;
 }
