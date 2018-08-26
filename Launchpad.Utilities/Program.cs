@@ -73,6 +73,7 @@ namespace Launchpad.Utilities
 				if (string.IsNullOrEmpty(options.TargetDirectory) || options.ManifestType == EManifestType.Unknown)
 				{
 					Log.Error("Target directory not set, or manifest type not set.");
+					Console.Write("Target directory not set, or manifest type not set.");
 					return;
 				}
 
@@ -80,13 +81,17 @@ namespace Launchpad.Utilities
 				if (Directory.Exists(options.TargetDirectory))
 				{
 					Log.Info("Generating manifest...");
+					Console.Write("Generating manifest...");
 
 					var manifestGenerationHandler = new ManifestGenerationHandler();
 
 					var progressReporter = new Progress<ManifestGenerationProgressChangedEventArgs>
 					(
-						e => Log.Info($"Processed file {e.Filepath} : {e.Hash} : {e.Filesize}")
-					);
+						delegate(ManifestGenerationProgressChangedEventArgs e)
+						{
+							Log.Info($"Processed file {e.Filepath} : {e.Hash} : {e.Filesize}");
+							Console.Write($"Processed file {e.Filepath} : {e.Hash} : {e.Filesize}");
+						});
 
 					await manifestGenerationHandler.GenerateManifestAsync
 					(
@@ -97,10 +102,12 @@ namespace Launchpad.Utilities
 					);
 
 					Log.Info("Generation finished.");
+					Console.Write("Generation finished.");
 				}
 				else
 				{
 					Log.Error("The selected directory did not exist.");
+					Console.Write("The selected directory did not exist.");
 				}
 			}
 			else if (string.IsNullOrEmpty(options.TargetDirectory) && options.ManifestType == EManifestType.Unknown)
