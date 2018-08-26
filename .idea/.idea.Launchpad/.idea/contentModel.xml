@@ -5,8 +5,8 @@
     <e p="C:\Users\Wadimich\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.runner.reporters.net452.dll" t="Include" />
     <e p="C:\Users\Wadimich\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.runner.utility.net452.dll" t="Include" />
     <e p="C:\Users\Wadimich\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.runner.visualstudio.testadapter.dll" t="Include" />
-    <e p="C:\Users\Wadimich\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Launchpad.-1747622157.00" t="ExcludeRecursive" />
-    <e p="D:\work\Launchpad" t="IncludeFlat">
+    <e p="C:\Users\Wadimich\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Launchpad.1027420751.00" t="ExcludeRecursive" />
+    <e p="D:\work\projects\audition2revival\Launchpad" t="IncludeFlat">
       <e p=".gitignore" t="Include" />
       <e p=".travis.yml" t="Include" />
       <e p="appveyor.yml" t="Include" />
@@ -26,7 +26,7 @@
         </e>
         <e p="Launchpad.Common.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="netstandard2.0" t="Include">
               <e p="Launchpad.Common.AssemblyInfo.cs" t="Include" />
             </e>
@@ -256,7 +256,7 @@
         <e p="Launchpad.Launcher.csproj.DotSettings" t="Include" />
         <e p="NLog.config" t="Include" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="net461" t="Include">
               <e p="Launchpad.Launcher.AssemblyInfo.cs" t="Include" />
             </e>
@@ -292,7 +292,7 @@
         </e>
         <e p="Launchpad.Tests.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="net461" t="Include">
               <e p="Launchpad.Tests.AssemblyInfo.cs" t="Include" />
             </e>
@@ -313,7 +313,7 @@
         <e p="Launchpad.Utilities.csproj" t="IncludeRecursive" />
         <e p="NLog.config" t="Include" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="net461" t="Include">
               <e p="Launchpad.Utilities.AssemblyInfo.cs" t="Include" />
             </e>
