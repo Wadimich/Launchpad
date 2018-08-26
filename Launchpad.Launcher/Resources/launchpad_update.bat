@@ -20,6 +20,5 @@
 ::  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 @echo off
-
-timeout 3 && xcopy /e /s /y "%temp%\launchpad\launcher" "%localDir%" && rmdir /s /q "%temp%\launchpad"
+timeout 3 && xcopy /E /Y "%temp%\launchpad\launcher" "%localDir%" && rmdir /s /q "%temp%\launchpad"
 start "%launchpadExecutable%"

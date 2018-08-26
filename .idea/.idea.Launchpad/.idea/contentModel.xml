@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="\50de9f97" t="IncludeRecursive" />
+    <e p="\app" t="IncludeRecursive" />
     <e p="C:\Users\Wadimich\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.abstractions.dll" t="Include" />
     <e p="C:\Users\Wadimich\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.runner.reporters.net452.dll" t="Include" />
     <e p="C:\Users\Wadimich\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.runner.utility.net452.dll" t="Include" />
     <e p="C:\Users\Wadimich\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.runner.visualstudio.testadapter.dll" t="Include" />
-    <e p="C:\Users\Wadimich\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Launchpad.1027420751.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Wadimich\.Rider2018.2\config\Extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Wadimich\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Wadimich\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Launchpad.1027420751.00" t="ExcludeRecursive" />
     <e p="D:\work\projects\audition2revival\Launchpad" t="IncludeFlat">
       <e p=".gitignore" t="Include" />
       <e p=".travis.yml" t="Include" />
