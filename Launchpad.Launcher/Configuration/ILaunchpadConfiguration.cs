@@ -43,7 +43,7 @@ namespace Launchpad.Launcher.Configuration
 		/// <summary>
 		/// Gets or sets the system target of the launcher.
 		/// </summary>
-		[Option(Alias = "Launcher.SystemTarget", DefaultValue = "Win64")]
+		[Option(Alias = "Launcher.SystemTarget", DefaultValue = "Win32")]
 		ESystemTarget SystemTarget { get; set; }
 
 		/// <summary>
@@ -64,7 +64,7 @@ namespace Launchpad.Launcher.Configuration
 		/// <summary>
 		/// Gets or sets the path to the game's executable, relative to the launcher.
 		/// </summary>
-		[Option(Alias = "Game.ExecutablePath", DefaultValue = "Dancegame/Binaries/Win64/Dancegame")]
+		[Option(Alias = "Game.ExecutablePath", DefaultValue = "Dancegame/Binaries/Win32/Dancegame")]
 		string ExecutablePath { get; set; }
 
 		// Remote section
@@ -73,7 +73,7 @@ namespace Launchpad.Launcher.Configuration
 		/// <summary>
 		/// Gets or sets the address of the remote server.
 		/// </summary>
-		[Option(Alias = "Remote.Address", DefaultValue = "ftp://sharkman.asuscomm.com")]
+		[Option(Alias = "Remote.Address", DefaultValue = "http://d.aurevival.ru/")]
 		Uri RemoteAddress { get; set; }
 
 		/// <summary>
