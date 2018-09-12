@@ -4,7 +4,7 @@
     <AssemblyName>Launchpad</AssemblyName>
     <TargetFramework>net461</TargetFramework>
     <Platform>x86</Platform>
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
     <CodeAnalysisRuleSet>..\stylecop.ruleset</CodeAnalysisRuleSet>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <LangVersion>7.1</LangVersion>
@@ -25,12 +25,10 @@
     <Prefer32bit>true</Prefer32bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <Prefer32bit>false</Prefer32bit>
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32bit>true</Prefer32bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <Prefer32bit>false</Prefer32bit>
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32bit>true</Prefer32bit>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Config.Net" Version="4.7.3" />
@@ -90,14 +88,14 @@
       <GTKshare Include="$(SolutionDir)\lib\gtk+-3.16-bundle-win32\share\**\*.*">
         <Visible>false</Visible>
       </GTKshare>
-      <!--<GTKbin Include="$(SolutionDir)\lib\gtk+-3.16-bundle-win32\bin\**\*.*">
+      <GTKbin Include="$(SolutionDir)\lib\gtk+-3.16-bundle-win32\bin\**\*.*">
         <Visible>false</Visible>
-      </GTKbin>-->
-  </ItemGroup>
+      </GTKbin>
+    </ItemGroup>
     <Message Text="Copying GTK+ libraries..." />
     <Copy SourceFiles="@(GTKetc)" DestinationFolder="$(OutputPath)\etc\%(RecursiveDir)" SkipUnchangedFiles="true" />
     <Copy SourceFiles="@(GTKlib)" DestinationFolder="$(OutputPath)\lib\%(RecursiveDir)" SkipUnchangedFiles="true" />
     <Copy SourceFiles="@(GTKshare)" DestinationFolder="$(OutputPath)\share\%(RecursiveDir)" SkipUnchangedFiles="true" />
-    <!--<Copy SourceFiles="@(GTKbin)" DestinationFolder="$(OutputPath)\%(RecursiveDir)" SkipUnchangedFiles="true" />-->
+    <Copy SourceFiles="@(GTKbin)" DestinationFolder="$(OutputPath)\%(RecursiveDir)" SkipUnchangedFiles="true" />
   </Target>
 </Project>
